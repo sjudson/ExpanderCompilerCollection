@@ -18,8 +18,8 @@ pub use crate::field::{BN254Fr, Field, FieldArith, GF2, M31};
 pub use crate::hints::registry::{EmptyHintCaller, HintCaller, HintRegistry};
 pub use crate::utils::error::Error;
 pub use api::{BasicAPI, RootAPI};
-pub use builder::Variable;
 pub use circuit::Define;
+pub use builder::{ToVariableOrValue, Variable};
 pub use witness::WitnessSolver;
 
 pub mod internal {
